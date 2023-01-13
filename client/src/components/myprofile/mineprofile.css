@@ -1,0 +1,94 @@
+.mineProfile{
+    flex:5.5;
+    margin: 50px;
+    height: 820px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+
+}
+.AddFriend,.visitWeb{
+    margin:10px;
+    font-size: larger;
+    background-color: rgb(94, 94, 226);
+    color:white;
+}
+
+.upper_Container{
+    position: relative;
+    height: 200px;
+    background: url(../../../public/assets/pexels-photo-1563356.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+   
+}
+
+.img_Container{
+   position: absolute;
+   top:8rem;
+   left:2rem;
+   
+}
+.img_Container img{
+    border-radius: 10px;
+    
+}
+
+.lower_Container{
+    position: absolute;
+    margin-top:10px;
+    
+}
+
+
+.lower_Container .Detailed_Info .Row{
+    font-size: larger;
+    margin:30px;
+    width:40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FirstName,.LastName,.Designation,.MyWebsite,.City,.Birthday
+,.State,.Zip,.Gender{
+    display: flex;
+    flex-direction: column;
+    
+}
+.SimpleRow{
+    margin-top:10px;
+    display: flex;
+    
+}
+
+.Btn{
+    font-size: large;
+    padding:10px;
+    margin-right:10px;
+    border-radius: 10px;
+}
+
+input{
+    font-size: large;
+    font-weight:lighter;
+    font-family: "Lucida Console", Courier, monospace;
+}
+label{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Birthday{
+    width: 15rem;
+}
+.FileUpload{
+    cursor: pointer;
+    position: absolute;
+    top:4.5rem;
+   
+    padding:1px;
+   
+    border-radius: 20px;
+    font-size:xx-large;
+}
+

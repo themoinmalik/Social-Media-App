@@ -1,0 +1,36 @@
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.btnRight {
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.rightbarFollowButton {
+  margin-top: 15px;
+  margin-bottom:5px;
+  border: none;
+  background-color: #1872f2;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: right;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#UserNames{
+    color:black;
+    text-decoration:none;
+}
